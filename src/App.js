@@ -13,25 +13,25 @@ import ShortCircuitOperatorRendering from './Components/ShortCircuitOperatorRend
 function App() {
   return (
     <div>
-      <div>
+      <div style={{ border: '1px solid black', padding: '10px', marginBottom: '20px' }}>
         <h2>If-Else Rendering Component</h2>
         <p>This component demonstrates rendering based on if-else conditions.</p>
         <IfelseRendering />
       </div>
 
-      <div>
+      <div style={{ border: '1px solid black', padding: '10px', marginBottom: '20px' }}>
         <h2>Element Rendering Component</h2>
         <p>This component demonstrates rendering elements based on conditions.</p>
         <ElementRendering />
       </div>
 
-      <div>
+      <div style={{ border: '1px solid black', padding: '10px', marginBottom: '20px' }}>
         <h2>Ternary Operator Rendering Component</h2>
         <p>This component demonstrates rendering using ternary operators.</p>
         <TernaryOperatorRendering />
       </div>
 
-      <div>
+      <div style={{ border: '1px solid black', padding: '10px', marginBottom: '20px' }}>
         <h2>Short Circuit Operator Rendering Component</h2>
         <p>This component demonstrates rendering using short-circuit operators.</p>
         <ShortCircuitOperatorRendering />
