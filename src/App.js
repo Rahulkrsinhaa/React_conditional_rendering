@@ -1,8 +1,8 @@
 import React from 'react';
 import IfelseRendering from './Components/IfelseRendering';
-import ElementRendering from './Components/ElementRendering';
-import TernaryOperatorRendering from './Components/TernaryOperatorRendering';
-import ShortCircuitOperatorRendering from './Components/ShortCircuitOperatorRendering';
+import ElementRendering from './Components/ElementRendring'
+import TernaryOperatorRendering from './Components/TerenaryOperatorRendering'
+import ShortCircuitOperatorRendering from './Components/ShortCircuitOperatorRendering'
 
 /**
  * Main application component.
